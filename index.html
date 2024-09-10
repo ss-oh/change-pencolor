@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHANGE-PEN-COLOR</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="warp">
+      <header class="title"><img src="img/logo.png" alt="" /></header>
+      <main>
+        <section class="pen_display">
+          <img id="pen_btn" class="pen_part" src="img/btn_green.png" alt="버튼" />
+          <img id="pen_top" class="pen_part" src="img/top_mint.png" alt="상부" />
+          <img id="pen_btm" class="pen_part" src="img/btm_gray.png" alt="하부" />
+        </section>
+        <section class="color_options">
+          <div class="tab_menu">
+            <button class="tab_button" onclick="showTab('upper')">상부</button>
+            <button class="tab_button" onclick="showTab('lower')">하부</button>
+            <button class="tab_button" onclick="showTab('button')">버튼</button>
+          </div>
+          <ul id="color-upper" class="tab_content">
+            <button class="color_btn" style="background-color: #ff3b3c;"></button>
+            <button class="color_btn" style="background-color: #ff8a3b;"></button><button class="color_btn" style="background-color: #ffe73c;"></button><button class="color_btn" style="background-color: #8efe36;"></button><button class="color_btn" style="background-color: #34b139;"></button><button class="color_btn" style="background-color: #5ce8ab;"></button><button class="color_btn" style="background-color: #2bc8fd;"></button><button class="color_btn" style="background-color: #2b77ff;"></button><button class="color_btn" style="background-color: #0000ba;"></button><button class="color_btn" style="background-color: #772bff;"></button><button class="color_btn" style="background-color: #f42cff;"></button><button class="color_btn" style="background-color: #fb99fc;"></button><button class="color_btn" style="background-color: #ffffff;"></button><button class="color_btn" style="background-color: #b8b8b8;"></button><button class="color_btn" style="background-color: #000000;"></button>
+          </ul>
+          <ul id="color-lower" class="tab_content">
+            <button class="color_btn" style="background-color: #ff3b3c;"></button>
+            <button class="color_btn" style="background-color: #ff8a3b;"></button><button class="color_btn" style="background-color: #ffe73c;"></button><button class="color_btn" style="background-color: #8efe36;"></button><button class="color_btn" style="background-color: #34b139;"></button><button class="color_btn" style="background-color: #5ce8ab;"></button><button class="color_btn" style="background-color: #2bc8fd;"></button><button class="color_btn" style="background-color: #2b77ff;"></button><button class="color_btn" style="background-color: #0000ba;"></button><button class="color_btn" style="background-color: #772bff;"></button><button class="color_btn" style="background-color: #f42cff;"></button><button class="color_btn" style="background-color: #fb99fc;"></button><button class="color_btn" style="background-color: #ffffff;"></button><button class="color_btn" style="background-color: #b8b8b8;"></button><button class="color_btn" style="background-color: #000000;"></button>
+          </ul>
+          <ul id="color-button" class="tab_content">
+            <button class="color_btn" style="background-color: #ff3b3c;"></button>
+            <button class="color_btn" style="background-color: #ff8a3b;"></button><button class="color_btn" style="background-color: #ffe73c;"></button><button class="color_btn" style="background-color: #8efe36;"></button><button class="color_btn" style="background-color: #34b139;"></button><button class="color_btn" style="background-color: #5ce8ab;"></button><button class="color_btn" style="background-color: #2bc8fd;"></button><button class="color_btn" style="background-color: #2b77ff;"></button><button class="color_btn" style="background-color: #0000ba;"></`button><button class="color_btn" style="background-color: #772bff;"></button><button class="color_btn" style="background-color: #f42cff;"></button><button class="color_btn" style="background-color: #fb99fc;"></button><button class="color_btn" style="background-color: #ffffff;"></button><button class="color_btn" style="background-color: #b8b8b8;"></button><button class="color_btn" style="background-color: #000000;"></button>
+          </ul>
+          <div class="box-menu">
+            <input
+              type="text"
+              placeholder="이메일 또는 휴대폰 번호를 입력해주세요."
+              class="textbox"
+            />
+            <button id="cart" class="box-btn">사`전예약신청</button>
+          </div>
+        </section>
+      </main>
+    </div>
+`
+    <script src="script.js"></script>
+  </body>
+</html>
